@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #F6F7F9;
+  color: #1B1F2A;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+/* Librava Design System Classes (Identik 100% dengan file HTML Desain) */
+.b {
+  background: #ffffff;
+  border: 1px solid #E3E6EC;
+  border-radius: 12px;
+}
+
+.btn {
+  background: #3347C4;
+  color: #ffffff;
+  border: 0;
+  border-radius: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.15s ease;
+}
+
+.btn:hover {
+  background: #2536A0;
+}
+
+.btn2 {
+  background: #ffffff;
+  color: #1B1F2A;
+  border: 1px solid #B9BFCC;
+  border-radius: 8px;
+  min-height: 44px;
+  padding: 0 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.15s ease;
+}
+
+.btn2:hover {
+  background: #F1F3F7;
+  border-color: #9AA2B3;
+}
+
+.in {
+  min-height: 44px;
+  border: 1px solid #B9BFCC;
+  border-radius: 8px;
+  padding: 0 14px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  background: #ffffff;
+  color: #1B1F2A;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.in:focus {
+  border-color: #3347C4;
+  box-shadow: 0 0 0 2px rgba(51, 71, 196, 0.15);
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #1B1F2A;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.ok {
+  color: #14673A;
+  background: #E4F5EA;
+}
+
+.warn {
+  color: #7A4300;
+  background: #FDF0D8;
+}
+
+.bad {
+  color: #9B1C1C;
+  background: #FBE5E5;
+}
+
+.mut {
+  color: #5B6272;
+  font-size: 13px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #3347C4;
+  padding: 4px 14px 18px;
+  cursor: pointer;
+}
+
+.nav a, .nav button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+  border-radius: 8px;
+  color: #343A48;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  background: transparent;
+  border: 0;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nav a:hover, .nav button:hover {
+  background: #F1F3F7;
+  color: #1B1F2A;
+}
+
+.nav a.on, .nav button.on {
+  background: #E9ECFB;
+  color: #2536A0;
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  font-size: 12px;
+  color: #5B6272;
+  padding: 10px 14px;
+  border-bottom: 1px solid #E3E6EC;
+  font-weight: 600;
+}
+
+td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #EEF0F4;
+  font-size: 14px;
+}
+
+.st {
+  padding: 18px;
+}
+
+.st p:first-child {
+  color: #5B6272;
+  font-size: 13px;
+}
+
+.st p:last-child {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 6px;
+  color: #1B1F2A;
+}
